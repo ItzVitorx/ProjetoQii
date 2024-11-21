@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Perfil </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="icon" href="img/logo.png"/>
+    </head>
+    <body>
+        <main class="text-center mt-5 container col-sm-10 col-md-6">
+            <h1> Visualizar perfil </h1>
+            <img src="img/logo.png" alt="" width="200"/>
+            
+            <form action="usuario-controller" method="post" class="validar" novalidate >
+                
+                <input type="hidden" name="pagina" value="VPerfil">
+                
+                <br> </br>
+                
+                <a href="edicao.html" class="btn btn-success mt-3"> Alterar dados </a>
+                
+                <br> </br>
+                
+                <input type="reset" value="Excluir dados" class="btn btn-outline-danger mt-4">
+              
+        </main>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/init-validation.js"></script>
+        
+    </body>
+</html>
